@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_edittext">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/user_icon"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/blue_grey"
+            android:textColorHint="@color/white"
+            android:textColorHighlight="@color/white" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_edittext">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/password_icon"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/signIn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_button"
+        android:padding="10dp"
+        android:text="MASUK"
+        android:textColor="@color/white"
+        android:textSize="30px" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun?, klik "
+           />
+
+        <TextView
+            android:id="@+id/klikDisini"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="disini"
+            android:clickable="true"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="daftarkan warung anda " />
+
+        <TextView
+            android:id="@+id/klikwarung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="disini"
+            android:clickable="true"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lupa password?, klik " />
+
+        <TextView
+            android:id="@+id/klik_lupa_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="disini"
+            android:clickable="true"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

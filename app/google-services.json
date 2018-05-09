@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "53925604580",
+    "firebase_url": "https://kuliner-cd5e8.firebaseio.com",
+    "project_id": "kuliner-cd5e8",
+    "storage_bucket": "kuliner-cd5e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53925604580:android:c938bb38b9fa286c",
+        "android_client_info": {
+          "package_name": "com.example.kukuliner.kuliner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53925604580-ud473sfj17igiefc2pc5hkdkcp1dmmm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kukuliner.kuliner",
+            "certificate_hash": "0a12c7f98c4b7e44c76a79e867aa6b478f54314e"
+          }
+        },
+        {
+          "client_id": "53925604580-62vu4rmanaiebn2liqn4f51e8lgikkhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQnAda7eZD21bzS_G354W2es_Ty00w6VE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53925604580-62vu4rmanaiebn2liqn4f51e8lgikkhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

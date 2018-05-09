@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kukuliner.kuliner">
+    <uses-sdk android:minSdkVersion="22" android:targetSdkVersion="26" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id2"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD9UGBXp4I_rE65rCFp1ko_KcAkB8zYRX4" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id2"/>
+
+        <activity
+            android:name=".user.splashScreen"
+            android:label="@string/title_activity_user_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".user.login" />
+        <activity android:name=".lupaPassword" />
+        <activity android:name=".lupaPassword2" />
+        <activity android:name=".lupaPassword3" />
+        <activity android:name=".user.cekPesananActivity" />
+        <activity android:name=".user.register" />
+        <activity android:name=".user_drawer" />
+        <activity android:name=".user.userPesanMenu" />
+        <activity android:name=".penjual.register2" />
+        <activity android:name=".testFacebook">
+
+        </activity>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".admin.admin"
+            android:label="@string/title_activity_admin"></activity>
+        <provider android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider220929752000910"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>

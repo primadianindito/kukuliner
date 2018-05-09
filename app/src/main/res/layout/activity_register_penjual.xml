@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear_register">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_edittext">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/nama_toko_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Warung"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/white"
+                android:textColor="@color/blue_grey"
+                android:textColorHighlight="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_edittext"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/email_toko_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_edittext">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/register_toko_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_edittext"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/alamat_toko"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="alamat toko"
+                android:inputType="text"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_edittext"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/notelepon_toko_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NO. Telfon toko"
+                android:inputType="number"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:id="@+id/userUploadId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:text="+ Upload Kartu Identitas"/>
+
+        <Button
+            android:id="@+id/signUp_button_toko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_button"
+            android:padding="10dp"
+            android:text="DAFTAR"
+            android:textColor="@color/white"
+            android:textSize="30px" />
+    </LinearLayout>
+
+
+</ScrollView>
